@@ -13,4 +13,6 @@ namespace igor_ok.Models
         public DateTime CreateDate { get; set; }
         public DateTime? ChangeDate { get; set; }
     }
+
+
 }

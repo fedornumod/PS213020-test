@@ -27,6 +27,7 @@ namespace igor_ok
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<NoteContext>(opt => opt.UseInMemoryDatabase("TestDB"));
+            services.AddDbContext<UserContext>(opt => opt.UseInMemoryDatabase("TestDB"));
             services.AddControllers();
         }
 

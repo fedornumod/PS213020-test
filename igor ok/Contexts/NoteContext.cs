@@ -16,5 +16,10 @@ namespace igor_ok.Contexts
 
         public DbSet<Note> Notes { get; set; }
 
+        public DbSet<igor_ok.Models.User> User { get; set; }
+
     }
+
+
+
 }
